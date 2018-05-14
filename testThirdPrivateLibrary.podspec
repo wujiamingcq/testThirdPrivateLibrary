@@ -54,8 +54,8 @@ Pod::Spec.new do |s|
   # s.dependency "JSONKit", "~> 1.4"
 
   s.dependencies = {
-    "Fabric": [
-      "~> 1.7.5"
+    "UMengUShare/UI": [
+      "~> 6.3.0"
     ]
   }
 
