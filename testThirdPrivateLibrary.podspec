@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.author             = { "yuchenH" => "huangyuchen@caiqr.com" }
 
 
-  # s.platform     = :ios, "9.0"
+  s.platform     = :ios, "9.0"
 
 
 
@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
 
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  s.frameworks = "Foundation","UIKit"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
