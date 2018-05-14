@@ -48,7 +48,7 @@ Pod::Spec.new do |s|
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
-
+  s.swift-version = 3.2
 
    s.requires_arc = true
 
