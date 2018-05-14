@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "testThirdPrivateLibrary"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "不写就报警，毛病"
 
   s.description  = <<-DESC
@@ -29,13 +29,14 @@ Pod::Spec.new do |s|
   s.author             = { "yuchenH" => "huangyuchen@caiqr.com" }
 
 
-  # s.platform     = :ios, "5.0"
+  # s.platform     = :ios, "8.0"
 
 
 
 
   s.source       = { :git => "https://github.com/yuchenH/testThirdPrivateLibrary.git", :tag => "#{s.version}" }
 
+  s.source_files = "*"
 
   #s.exclude_files = "Classes/Exclude"
 
@@ -54,5 +55,6 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
+  
 
 end
