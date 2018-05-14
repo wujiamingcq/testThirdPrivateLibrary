@@ -474,8 +474,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C74VQ3FE9N;
+				DEVELOPMENT_TEAM = W3VEA2W3L2;
 				INFOPLIST_FILE = testThirdPrivateLibrary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = caiqr.testThirdPrivateLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -490,8 +491,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C74VQ3FE9N;
+				DEVELOPMENT_TEAM = W3VEA2W3L2;
 				INFOPLIST_FILE = testThirdPrivateLibrary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = caiqr.testThirdPrivateLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
