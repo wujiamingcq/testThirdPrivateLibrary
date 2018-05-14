@@ -2,19 +2,36 @@ PODS:
   - Crashlytics (3.10.1):
     - Fabric (~> 1.7.5)
   - Fabric (1.7.6)
+  - UMengUShare/Core (6.4.8.2):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.4.8.2)
+  - UMengUShare/Social/ReducedQQ (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedSina (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedWeChat (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/UI (6.4.8.2):
+    - UMengUShare/Core
 
 DEPENDENCIES:
   - Crashlytics
+  - UMengUShare/Social/ReducedQQ
+  - UMengUShare/Social/ReducedSina
+  - UMengUShare/Social/ReducedWeChat
+  - UMengUShare/UI
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Crashlytics
     - Fabric
+    - UMengUShare
 
 SPEC CHECKSUMS:
   Crashlytics: aee1a064cbbf99b32efa3f056a5f458d846bc8ff
   Fabric: f8d42c893bb187326a7968b62abe55c36a987a46
+  UMengUShare: 370d180101e13ee0227ae657ab119ba97243d2b3
 
-PODFILE CHECKSUM: 0da8b0dd8a5a917d75b824e4b9a96966029e0947
+PODFILE CHECKSUM: 685717a4fdd9cc7877ddccc78a20066a822fae42
 
 COCOAPODS: 1.5.0
