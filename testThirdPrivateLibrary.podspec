@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "testThirdPrivateLibrary"
-  s.version      = "0.2"
+  s.version      = "0.3"
   s.summary      = "不写就报警，毛病"
 
   s.description  = <<-DESC
