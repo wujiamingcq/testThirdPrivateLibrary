@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
 
 
 
-  s.source       = { :git => "https://github.com/yuchenH/testThirdPrivateLibrary.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/wujiamingcq/testThirdPrivateLibrary.git", :tag => "#{s.version}" }
   s.source_files  = "testThirdPrivateLibrary/*"
 
   #s.exclude_files = "Classes/Exclude"
