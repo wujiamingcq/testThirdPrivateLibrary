@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   #s.exclude_files = "Classes/Exclude"
 
 
-
+  s.swift_version = '3.2' 
 
   # s.framework  = "SomeFramework"
   s.frameworks = "Foundation","UIKit"
