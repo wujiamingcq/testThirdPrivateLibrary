@@ -56,7 +56,7 @@ Pod::Spec.new do |s|
   s.subspec 'UMengUShare' do |us|
 
     #facebook.compiler_flags = '-Wno-incomplete-implementation -Wno-missing-prototypes'
-    us.requires_arc = true
+    #us.requires_arc = true
     us.dependencies = {
     "UMengUShare/UI": [
       "~> 6.3.0"
