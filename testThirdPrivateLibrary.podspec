@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
 
 
   s.source       = { :git => "https://github.com/wujiamingcq/testThirdPrivateLibrary.git", :tag => "#{s.version}" }
-  s.source_files  = "testThirdPrivateLibrary/*"
+  s.source_files  = "testThirdPrivateLibrary/*.swift"
 
   #s.exclude_files = "Classes/Exclude"
 
@@ -47,8 +47,6 @@ Pod::Spec.new do |s|
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
-
-  s.swift-version = 3.2
 
    s.requires_arc = true
 
