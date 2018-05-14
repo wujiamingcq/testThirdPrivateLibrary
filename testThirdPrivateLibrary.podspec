@@ -48,7 +48,7 @@ Pod::Spec.new do |s|
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
-   s.requires_arc = true
+   #s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
@@ -56,6 +56,7 @@ Pod::Spec.new do |s|
   s.subspec 'UMengUShare' do |us|
 
     #facebook.compiler_flags = '-Wno-incomplete-implementation -Wno-missing-prototypes'
+    us.requires_arc = true
     us.dependencies = {
     "UMengUShare/UI": [
       "~> 6.3.0"
