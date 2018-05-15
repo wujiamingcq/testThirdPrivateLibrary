@@ -48,16 +48,18 @@ Pod::Spec.new do |s|
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
-   #s.requires_arc = true
-  s.vendored_libraries = '*.a'
+  #s.requires_arc = true
+  #s.vendored_libraries = '*.a'
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-
+  s.xconfig = {
+          'OTHER_LDFLAGS' => '$(inherited) -lstdc++',
+      }
   s.subspec 'UMengUShare' do |us|
 
     #facebook.compiler_flags = '-Wno-incomplete-implementation -Wno-missing-prototypes'
     us.requires_arc = true
-    us.vendored_libraries = '*.a'
+    #us.vendored_libraries = '*.a'
     us.dependencies = {
     "UMengUShare": [
       "~> 6.3.0"
