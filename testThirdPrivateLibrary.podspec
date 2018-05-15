@@ -44,7 +44,7 @@ Pod::Spec.new do |s|
 
   # s.framework  = "SomeFramework"
   s.frameworks = "Foundation","UIKit"
-  s.static_framework = true
+  #s.static_framework = true
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
@@ -56,7 +56,8 @@ Pod::Spec.new do |s|
   s.subspec 'UMengUShare' do |us|
 
     #facebook.compiler_flags = '-Wno-incomplete-implementation -Wno-missing-prototypes'
-    #us.requires_arc = true
+    us.requires_arc = true
+    us.static_framework = true
     us.dependencies = {
     "UMengUShare": [
       "~> 6.3.0"
