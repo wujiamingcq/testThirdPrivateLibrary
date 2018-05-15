@@ -52,7 +52,7 @@ Pod::Spec.new do |s|
   #s.vendored_libraries = '*.a'
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-  s.xconfig = {
+  s.xcconfig = {
           'OTHER_LDFLAGS' => '$(inherited) -lstdc++',
       }
   s.subspec 'UMengUShare' do |us|
